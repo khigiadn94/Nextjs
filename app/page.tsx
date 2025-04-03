@@ -1,9 +1,13 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Head>
+        <meta name="description" content="Learn NextJS for fun" />
+      </Head>
       <main className={styles.main}>
         <Image
           className={styles.logo}
@@ -13,11 +17,12 @@ export default function Home() {
           height={38}
           priority
         />
+
         <ol>
           <li>
-            Get started by editing <code>app/page.tsx</code>.
+            Learn NextJS <code>Haluhak.gg</code>.
           </li>
-          <li>Save to Địt mẹ mày Thảo.</li>
+          <li>Save to fuck the world.</li>
         </ol>
 
         <div className={styles.ctas}>
